@@ -20,18 +20,6 @@ describe('Fill the form', () => {
     cy.get('[href="/pages/forms/layouts"]').click();
   })
 
-// const name = ['Svitlana', 123 , '@#$5?//','1234567890123456789012345678901234567890123456789012345678901234567890',' '];
-// const email = ['kolobok@ukr.net', 'ko@' , 'ko', 123, '1234567890123456789012345678901234567890123456789012345678901234567890',' '];
-
-//     for (let a=0; a<name.lenght; a++) {
-
-//       it(`Fill the form with name: ${name} and email:${email}`, () => {
-      
-//       fillTheField('[placeholder="Jane Doe"]', name[a]);
-//       fillTheField('.form-inline > [placeholder="Email"]', email[a]);
-//   })
-//}
-
 const testData = [
   {name:'Svitlana' , email:'kolobok@ukr.net' },
   {name:123 , email:'kolobok@' },
